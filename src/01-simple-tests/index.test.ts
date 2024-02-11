@@ -18,8 +18,8 @@ describe('simpleCalculator tests', () => {
   });
 
   test('should divide two numbers', () => {
-    const result = simpleCalculator({ a: 5, b: 3, action: Action.Add });
-    expect(result).toBe(8);
+    const result = simpleCalculator({ a: 9, b: 3, action: Action.Divide });
+    expect(result).toBe(3);
   });
 
   test('should exponentiate two numbers', () => {
