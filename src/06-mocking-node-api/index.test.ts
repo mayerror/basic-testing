@@ -83,7 +83,7 @@ describe('readFileAsynchronously', () => {
 
     const fileContent = await readFileAsynchronously(pathToFile);
 
-    expect(fileContent).toBe(null);
+    expect(fileContent).toBeNull();
   });
 
   test('should return file content if file exists', async () => {
